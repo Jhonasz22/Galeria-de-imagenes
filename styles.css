@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(14, 0, 121);
+  margin: 0px;
+}
+
+.slider-container {
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  background-color: black;
+  height: 600px;
+}
+
+.image-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.img {
+  max-width: 99%;
+  max-height: 99%;
+}
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.button-slider {
+  border: none;
+  height: 100%;
+  width: 49.8%;
+  background-color: transparent;
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+}
+
+.button-slider:hover {
+  background-color: rgba(255, 255, 255, 0.633);
+}
+
+.gallery-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.toggleButton {
+  margin: 10px;
+}
+
+.botoncontainer {
+  margin-left: 45%;
+  display: flex;
+}
+
+#prevButton {
+  margin: 0px;
+  padding: 0px;
+}
+
+#nextButton {
+  margin: 0px;
+  padding: 0px;
+}
